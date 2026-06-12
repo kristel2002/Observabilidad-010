@@ -71,9 +71,9 @@ services:
   loki:
     image: grafana/loki:3.4.0
     container_name: lab-loki
-    command: -config.file=/etc/loki/loki-config.yaml
+    command: -config.file=/et./Loki/loki-config.yaml
     volumes:
-      - ./loki/loki-config.yaml:/etc/loki/loki-config.yaml:ro
+      - ./Loki/loki-config.yaml:/et./Loki/loki-config.yaml:ro
     ports:
       - "3100:3100"
     restart: unless-stopped
