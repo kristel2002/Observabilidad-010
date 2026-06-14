@@ -1,1 +1,18 @@
 /grafana/solucion
+
+# Archivos de respaldo y respaldos temporales 
+*.bak
+*.tmp
+*.swp
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Dependencias de Node.js 
+node_modules/
+npm-debug.log
+
+# Archivos de variables de entorno 
+.env
+.env.local
