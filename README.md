@@ -57,15 +57,7 @@ Difieren porque el Host mide el consumo general del servidor (S.O. y contenedore
 El **Evaluation Interval** es la frecuencia fija con la que Grafana ejecuta la consulta de análisis (cada `10s`). El **Pending Period** es el tiempo de tolerancia continuo que la métrica debe violar el umbral (ej: `1m`) antes de enviar la notificación crítica, mitigando picos de estrés transitorios.
 
 ---
-
-##  Comandos de Verificación
-```bash
-# Construir e inicializar el stack de infraestructura en segundo plano
-docker compose up -d --build
-
-# Verificar el estado operativo de los contenedores desplegados
-docker compose ps
-
+---
 | Servicio | URL | Notas |
 | :--- | :--- | :--- |
 | **Frontend** | `http://localhost:8080` | Hello World + botones de tráfico/carga |
@@ -75,3 +67,14 @@ docker compose ps
 | **Loki** | `http://localhost:3100` | datasource ya provisionado |
 | **Alloy (UI)** | `http://localhost:12345` | estado del recolector de logs |
 | **node-exporter** | `http://localhost:9100/metrics` | métricas del host |
+
+---
+
+##  Comandos de Verificación
+```bash
+# Construir e inicializar el stack de infraestructura en segundo plano
+docker compose up -d --build
+
+# Verificar el estado operativo de los contenedores desplegados
+docker compose ps
+
