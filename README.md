@@ -58,17 +58,17 @@ El **Evaluation Interval** es la frecuencia fija con la que Grafana ejecuta la c
 
 ---
 
-##  Servicios utilizados
+## Servicios utilizados
 
-| Servicio | URL | 
-| :--- | :--- | :--- |
-| **Frontend** | `http://localhost:8080` | 
-| **Backend (API)** | `http://localhost:3001` | 
-| **Grafana** | `http://localhost:3000` | 
-| **Prometheus** | `http://localhost:9090` | 
-| **Loki** | `http://localhost:3100` | 
-| **Alloy (UI)** | `http://localhost:12345` | 
-| **node-exporter** | `http://localhost:9100/metrics` | 
+| Servicio | URL |
+| :--- | :--- |
+| **Frontend** | `http://localhost:8080` |
+| **Backend (API)** | `http://localhost:3001` |
+| **Grafana** | `http://localhost:3000` |
+| **Prometheus** | `http://localhost:9090` |
+| **Loki** | `http://localhost:3100` |
+| **Alloy (UI)** | `http://localhost:12345` |
+| **node-exporter** | `http://localhost:9100/metrics` |
 
 
 ##  Comandos de Verificación
