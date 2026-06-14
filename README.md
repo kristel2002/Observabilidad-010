@@ -57,18 +57,19 @@ Difieren porque el Host mide el consumo general del servidor (S.O. y contenedore
 El **Evaluation Interval** es la frecuencia fija con la que Grafana ejecuta la consulta de análisis (cada `10s`). El **Pending Period** es el tiempo de tolerancia continuo que la métrica debe violar el umbral (ej: `1m`) antes de enviar la notificación crítica, mitigando picos de estrés transitorios.
 
 ---
----
-| Servicio | URL | Notas |
-| :--- | :--- | :--- |
-| **Frontend** | `http://localhost:8080` | Hello World + botones de tráfico/carga |
-| **Backend (API)** | `http://localhost:3001` | `/api/hello`, `/metrics`, `/load` |
-| **Grafana** | `http://localhost:3000` | admin / admin |
-| **Prometheus** | `http://localhost:9090` | datasource ya provisionado |
-| **Loki** | `http://localhost:3100` | datasource ya provisionado |
-| **Alloy (UI)** | `http://localhost:12345` | estado del recolector de logs |
-| **node-exporter** | `http://localhost:9100/metrics` | métricas del host |
 
----
+##  Servicios utilizados
+
+| Servicio | URL | 
+| :--- | :--- | :--- |
+| **Frontend** | `http://localhost:8080` | 
+| **Backend (API)** | `http://localhost:3001` | 
+| **Grafana** | `http://localhost:3000` | 
+| **Prometheus** | `http://localhost:9090` | 
+| **Loki** | `http://localhost:3100` | 
+| **Alloy (UI)** | `http://localhost:12345` | 
+| **node-exporter** | `http://localhost:9100/metrics` | 
+
 
 ##  Comandos de Verificación
 ```bash
