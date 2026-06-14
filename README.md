@@ -1,7 +1,6 @@
 # Informe de Laboratorio: Stack de Observabilidad e IaC
 
 **Alumna:** Kristel Catherine Rivera Chamorro  
-**Enfoque:** Infraestructura como Código (IaC) y Telemetría Integrada  
 
 ---
 
