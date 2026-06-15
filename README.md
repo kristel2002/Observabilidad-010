@@ -27,11 +27,11 @@ Despliegue y configuración automatizada de un ecosistema de observabilidad sobr
 * **Propósito:** Centralizar datos abstractos en gráficos interactivos en tiempo real para correlacionar eventos.
   * **4.1 CPU del Contenedor:** Mide el consumo de cómputo aislado del proceso del backend. Diagnostica bucles lógicos o sobrecargas específicas del servicio.
   * **4.2 CPU del Host:** Mide el estrés global del servidor virtualizado. Identifica cuellos de botella del sistema operativo o procesos externos al stack.
-  * **4.3 Logs de Aplicación:** Muestra errores lógicos y trazas (JSON) de la app en Loki para descubrir el *porqué* de una falla (Causa Raíz).
+  * **4.3 Logs de Aplicación:** Muestra errores lógicos y trazas JSON de la app en Loki para descubrir el *porqué* de una falla .
   * **4.4 Logs de Infraestructura:** Registros internos del motor de contenedores y del stack de monitoreo. Sirve para vigilar la salud de las herramientas de supervisión.
 
 ## 5. Configurar la Alarma
-* **Propósito:** Automatizar la monitorización definiendo umbrales lógicos (ej: CPU Backend > 50%). Utiliza intervalos de evaluación y periodos de gracia (*Pending*) para evitar la saturación por falsos positivos.
+* **Propósito:** Automatizar la monitorización definiendo umbrales lógicos ej: CPU Backend > 50%. Utiliza intervalos de evaluación y periodos de gracia Pending para evitar la saturación por falsos positivos.
 
 ## 6. Probar la Alarma
 * **Propósito:** Forzar picos de carga controlados para verificar la transición de estados de la regla (`Normal` -> `Pending` -> `Firing`). Garantiza la resiliencia técnica de la alerta antes del paso a producción.
